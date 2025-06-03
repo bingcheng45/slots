@@ -1,0 +1,142 @@
+# Product Requirements Document: CryptoSlots
+
+## 1. Introduction and Overview
+
+### 1.1. Game Title
+CryptoSlots (placeholder, can be changed later)
+
+### 1.2. Brief Description
+A web-based slot machine game with a cryptocurrency theme. The game will offer an engaging and visually appealing experience for players interested in both cryptocurrency and slot machine entertainment.
+
+### 1.3. Core Gameplay
+CryptoSlots will feature a classic 5-reel slot machine mechanism. Key elements of the gameplay include:
+- **Reels:** 5 spinning reels.
+- **Symbols:** A variety of cryptocurrency-themed symbols (e.g., Bitcoin, Ethereum, Dogecoin, Shiba Inu, generic coins, trading charts, rockets).
+- **Paylines:** Multiple paylines to determine winning combinations.
+- **Spin Action:** A clear and responsive button to initiate a spin.
+- **Winning Combinations:** Clearly defined winning combinations and their corresponding payouts.
+- **Animations:** Smooth and engaging animations for reel spins, symbol highlights, and winning notifications.
+- **Graphics:** High-quality graphics to create an immersive and visually appealing experience.
+
+### 1.4. Target Audience
+- Individuals interested in cryptocurrency and blockchain technology.
+- Players who enjoy online slot machine games.
+- Casual gamers looking for a fun and potentially rewarding web-based game.
+
+### 1.5. Platform
+The primary platform for CryptoSlots will be web browsers, accessible on both:
+- Desktop computers
+- Mobile devices (smartphones and tablets)
+The game will be designed with responsive UI/UX to ensure a seamless experience across different screen sizes.
+
+## 2. Gameplay Mechanics
+
+### 2.1. Reels
+The game will feature 5 spinning reels.
+
+### 2.2. Paylines
+There will be 5 fixed payout lines. The specific configuration of these lines (e.g., horizontal, diagonal patterns) will be defined during the design phase.
+
+### 2.3. Spin Mechanism
+Each spin will be initiated by the player. The reels will animate smoothly, coming to a stop to reveal the symbol combination. Animations will be visually appealing and provide clear feedback to the player.
+
+### 2.4. Return to Player (RTP)
+The game will have a theoretical Return to Player (RTP) of 99.95%. This means that, over a very large number of spins (long-term play), the game is expected to return $999.50 to players for every $1000 wagered. This is a statistical average and does not guarantee individual session outcomes.
+
+### 2.5. Bet Amounts
+Players will be able to adjust their bet amounts before each spin. The range of permissible bet amounts (min/max) will be defined, allowing for flexibility for different player preferences. (e.g., $0.10, $0.50, $1.00, $5.00, $10.00 or a custom input field).
+
+### 2.6. Winning Combinations
+Winning combinations will be formed by landing matching crypto-themed symbols along active paylines, as per the paytable. The specific symbols, their values, and the required number of matches for a win will be detailed in the game's paytable information screen.
+
+## 3. Visuals and Audio
+
+### 3.1. Theme and Art Style
+The game will embrace a cryptocurrency theme. Visual elements will include:
+- **Symbols:** Icons representing popular cryptocurrencies (e.g., Bitcoin, Ethereum, Dogecoin, Shiba Inu), as well as related imagery like trading charts, rockets ("to the moon" concept), and digital coins.
+- **Backgrounds:** Thematic backgrounds that evoke a sense of technology, finance, or the excitement of the crypto space.
+- **Overall Style:** Modern, sleek, and engaging. May incorporate elements of digital or futuristic aesthetics.
+
+### 3.2. Graphics Quality
+Graphics will be high-quality, polished, and visually appealing to create an immersive experience. This includes crisp symbols, smooth reel surfaces, and well-designed UI elements. "Great graphics" is a key objective.
+
+### 3.3. Animations
+- **Spin Animations:** Reels will spin smoothly with clear start and stop motions.
+- **Win Animations:** Winning paylines and symbols will be highlighted with engaging animations (e.g., glowing, pulsing, small celebratory effects).
+- **Symbol Animations:** Key symbols might have subtle idle animations or special animations when part of a winning combination.
+- **Bonus Feature Animations (if applicable):** Any bonus rounds or special features will have distinct and exciting animations.
+
+### 3.4. User Interface (UI)
+- **Layout:** Clean, intuitive, and easy to navigate for both new and experienced slot players.
+- **Information Display:** The UI must clearly display:
+    - Player's current balance.
+    - Current bet amount per spin.
+    - Winnings from the last spin / total winnings.
+    - A prominent and responsive "Spin" button.
+    - Easy access to paytable information.
+    - Bet adjustment controls.
+    - Sound controls (mute/unmute).
+- **Responsiveness:** The UI will be responsive and adapt seamlessly to different screen sizes (desktop and mobile).
+
+### 3.5. Sound Design
+- **Sound Effects (SFX):**
+    - **Spin Start/Stop:** Satisfying sounds for the reels starting and stopping.
+    - **Win Notification:** Distinct sounds for different tiers of wins (small, medium, large).
+    - **Symbol Sounds:** Subtle sounds when specific symbols land.
+    - **Button Clicks:** Audible feedback for UI interactions.
+- **Background Music (BGM):**
+    - Upbeat, futuristic, or electronic music that complements the cryptocurrency theme without being distracting.
+    - Music may change intensity during wins or special features.
+- **Mute Option:** A clearly accessible option to mute/unmute all game audio (both SFX and BGM) is essential.
+
+## 4. Bonus Features and Mini-Games
+
+Mini bonus features and mini-games will be included to enhance player engagement and provide additional winning opportunities.
+
+### 4.1. Examples (TBD/Ideas for Further Development):
+- **Free Spins:** Awarded when specific combinations of Scatter symbols (or other designated symbols) land on the reels. Players receive a set number of spins that do not deduct from their balance.
+- **Multiplier Wilds:** Wild symbols that not only substitute for other symbols to create winning lines but also multiply the payout of any win they are part of.
+- **"HODL" Bonus Round:** A mini-game where players are presented with a fluctuating crypto asset (simulated). They must choose to "HODL" (hold) or "Sell" at opportune moments to accumulate bonus credits. This could be a timed event or a set number of decision points.
+- **"Blockchain Explorer" Trail Bonus:** A pick-and-click style mini-game. Players choose from a selection of items (e.g., blocks on a chain, nodes on a network) to reveal prizes, advance along a trail, or potentially hit a "collect" that ends the bonus. Reaching the end of the trail could award a larger jackpot.
+
+### 4.2. Note
+The exact mechanics, frequency, and variety of mini-games and bonus features will be further detailed in a separate Game Design Document (GDD) or defined during the iterative development and design phase. The goal is to make these features thematic, engaging, and rewarding.
+
+## 5. Mobile Compatibility
+
+The game must be mobile-friendly and provide a seamless experience on various devices, including smartphones and tablets.
+
+### 5.1. Responsive Design
+The layout and controls must adapt dynamically to different screen sizes and orientations (portrait and landscape, where applicable for optimal gameplay). UI elements should resize and reflow appropriately to maintain usability and visual appeal.
+
+### 5.2. Touch Controls
+All gameplay interactions, including starting a spin, adjusting bet amounts, navigating menus, and interacting with bonus features, must be intuitive and easy to use with touch input. Buttons and interactive elements should be appropriately sized for touch targets.
+
+### 5.3. Performance
+The game must be optimized for performance on a wide range of mobile devices. This includes:
+- Smooth animations for reel spins and visual effects.
+- Quick loading times for the game itself and transitions between game states.
+- Efficient resource management to minimize battery drain and ensure stability, even on less powerful devices.
+- Testing on various mobile operating systems (iOS, Android) and browser versions will be necessary.
+
+## 6. Future Considerations
+
+This section outlines potential features and enhancements that could be considered for future versions of CryptoSlots, post-MVP launch, to further expand its appeal and longevity.
+
+- **Real Cryptocurrency Integration:**
+    - Integration with actual cryptocurrency wallets for deposits and withdrawals. This would be a significant undertaking, subject to thorough legal and regulatory review and compliance.
+- **Social and Competitive Features:**
+    - **Leaderboards:** Daily, weekly, or all-time leaderboards for high scores or biggest wins.
+    - **Social Sharing:** Options for players to share significant wins or achievements on social media platforms.
+- **Advanced Jackpot Systems:**
+    - **Progressive Jackpots:** Jackpots that grow over time with player wagers across the network (if applicable).
+- **Content Expansion:**
+    - **Seasonal Themes:** Introducing limited-time themes, symbols, and animations for holidays or special events (e.g., Halloween, New Year's, major crypto conferences).
+    - **New Mini-Games/Bonuses:** Continuously expanding the roster of available mini-games and bonus features to keep gameplay fresh.
+- **Localization and Internationalization:**
+    - Translating game text and UI elements into multiple languages to reach a broader international audience.
+    - Considering regional preferences for themes or currencies if expanding to specific markets.
+- **Player Accounts and Progression:**
+    - Optional player accounts to save progress, track statistics, or unlock achievements.
+- **Gamification Layers:**
+    - Daily login bonuses, achievement systems, or loyalty programs.
