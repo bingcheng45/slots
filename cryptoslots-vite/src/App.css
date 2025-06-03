@@ -1,0 +1,249 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #f0f0f0;
+}
+
+.app-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    min-width: 450px;
+    position: relative;
+}
+
+.game-info {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #e9e9e9;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.game-info p {
+    margin: 5px 10px;
+    font-size: 1.1em;
+}
+
+.reels-grid {
+    display: flex;
+    border: 2px solid #333;
+    background-color: #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+.reel {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+    border: 1px solid #999;
+}
+
+.reel:last-child {
+    margin-right: 0;
+}
+
+.symbol-cell {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    margin: 2px;
+    overflow: hidden;
+    transition: background-color 0.3s, border 0.3s; /* For smooth transition */
+}
+
+.symbol-cell-winning {
+    background-color: rgba(255, 255, 0, 0.4); /* Light yellow background */
+    border: 2px solid #FFD700; /* Gold border */
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.7); /* Gold glow */
+}
+
+
+.symbol-image {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+}
+
+.controls-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+.bet-controls {
+    display: flex;
+    align-items: center;
+}
+
+.bet-controls button {
+    padding: 8px 12px;
+    font-size: 1em;
+    margin: 0 5px;
+    background-color: #6c757d;
+}
+
+.bet-controls button:hover {
+    background-color: #5a6268;
+}
+
+.bet-controls button:disabled {
+    background-color: #adb5bd;
+    cursor: not-allowed;
+}
+
+.bet-display {
+    font-size: 1.1em;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    background-color: #e9ecef;
+}
+
+.spin-button-container button {
+    padding: 12px 25px;
+    font-size: 1.3em;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.spin-button-container button:hover {
+    background-color: #218838;
+}
+
+.spin-button-container button:disabled {
+    background-color: #82d194;
+    cursor: not-allowed;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.secondary-controls-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.secondary-controls-container button {
+    padding: 8px 15px;
+    font-size: 1em;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.paytable-button {
+    background-color: #17a2b8;
+}
+.paytable-button:hover {
+    background-color: #138496;
+}
+
+.mute-button {
+    background-color: #ffc107;
+    color: #212529;
+}
+.mute-button:hover {
+    background-color: #e0a800;
+}
+
+
+/* Paytable Styles */
+.paytable-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.paytable-content {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    width: 80%;
+    max-width: 600px;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.paytable-content h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.paytable-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.paytable-table th, .paytable-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.paytable-table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+.paytable-table td {
+    font-size: 0.95em;
+}
+
+.paytable-symbol-image {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.paytable-close-btn {
+    display: block;
+    margin: 15px auto 0;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    background-color: #dc3545;
+}
+.paytable-close-btn:hover {
+    background-color: #c82333;
+}
